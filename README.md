@@ -34,8 +34,8 @@ void hbc_I2C_Stop(struct hbc_I2C_struct* I2Cx);
 
 # 5、发送地址和WR控制位（需要检查应答信号）
 
-#define hbc_I2C_Write 0x00
-#define hbc_I2C_Read 0x01
+\#define hbc_I2C_Write 0x00
+\#define hbc_I2C_Read 0x01
 void hbc_I2C_SendAddress(struct hbc_I2C_struct* I2Cx,uint8_t address,uint8_t WR);
 
 例如
